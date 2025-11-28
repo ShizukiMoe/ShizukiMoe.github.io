@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Shizukiの魔法小屋</title><description>可愛いは正義です</description><link>https://shizuki.moe/</link><language>zh_CN</language><item><title>qBittorrent 美化</title><link>https://shizuki.moe/posts/2025/08/20/qbittorrent-beautify/</link><guid isPermaLink="true">https://shizuki.moe/posts/2025/08/20/qbittorrent-beautify/</guid><description>使用 VueTorrent + qBitTorrent-fluent-theme 来实现对 qBittorrent 的美化</description><pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;封面：&lt;a href=&quot;https://www.pixiv.net/artworks/129644254&quot;&gt;Day 18 天依&lt;/a&gt;&lt;br /&gt;
+画师：&lt;a href=&quot;https://www.pixiv.net/users/14292311&quot;&gt;MORI森&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;因为 qBittorrent 原版 UI 过于丑陋，所以我找了一些开源项目来美化 qBittorrent。&lt;/p&gt;
+&lt;h2&gt;WebUI&lt;/h2&gt;
+&lt;p&gt;::github{repo=&quot;VueTorrent/VueTorrent&quot;}&lt;/p&gt;
+&lt;p&gt;下载 VueTorrent，选择最新版本。&lt;/p&gt;
+&lt;p&gt;勾选 &lt;code&gt;工具-设置-WebUI-使用备用的WebUI&lt;/code&gt;，解压后添加至 &lt;code&gt;文件位置&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;GUI&lt;/h2&gt;
+&lt;h3&gt;主题&lt;/h3&gt;
+&lt;p&gt;::github{repo=&quot;witalihirsch/qBitTorrent-fluent-theme&quot;}&lt;/p&gt;
+&lt;p&gt;下载 qBitTorrent-fluent-theme 主题。
+如果你的 qBittorrent 版本大于 5.x 版本，可以下载 &lt;a href=&quot;https://github.com/user-attachments/files/17586876/defaulticons-fluent.zip&quot;&gt;defaulticons-fluent.zip&lt;/a&gt; 或 &lt;a href=&quot;https://github.com/user-attachments/files/17588035/Pre-5.0-icons-fluent.zip&quot;&gt;Pre-5.0-icons-fluent.zip&lt;/a&gt;。
+前者使用 qBittorrent 原版风格图标，后者使用 Fluent 风格图标。&lt;/p&gt;
+&lt;p&gt;最后添加 &lt;code&gt;.qbtheme&lt;/code&gt; 文件至 &lt;code&gt;工具-设置-行为-使用自定义界面主题-界面主题文件&lt;/code&gt;，可按个人喜好自行选择。&lt;/p&gt;
+&lt;h3&gt;MicaForEveryone&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;qBitTorrent-fluent-theme&lt;/code&gt; 主题需要 MicaForEveryone 才能正常显示，因此需要下载 &lt;a href=&quot;https://github.com/MicaForEveryone/MicaForEveryone&quot;&gt;MicaForEveryone&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;::github{repo=&quot;MicaForEveryone/MicaForEveryone&quot;}&lt;/p&gt;
+&lt;p&gt;我下载的是 &lt;code&gt;v1.3.1.2&lt;/code&gt; 版本，如果遇到什么问题，可以先尝试安装这个版本。&lt;/p&gt;
+&lt;p&gt;下载完后运行 MicaForEveryone，点击左下角添加规则，点击依据程序名添加规则，输入 &lt;code&gt;qbittorrent&lt;/code&gt;。
+启用将窗口框架扩展到客户区。&lt;/p&gt;
+&lt;h2&gt;对比&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://s1.imagehub.cc/images/2025/10/03/8216562fde47e9d06e796dd797a6eab6.webp&quot; alt=&quot;Original GUI&quot; /&gt;
+&lt;img src=&quot;https://s1.imagehub.cc/images/2025/10/03/04912da6e1a5d72629df0a8449b17f95.webp&quot; alt=&quot;Fluent GUI&quot; /&gt;
+&lt;img src=&quot;https://s1.imagehub.cc/images/2025/10/03/fe920d4e4a7c3d3f85d9afc0a11d772f.webp&quot; alt=&quot;Original WebUI&quot; /&gt;
+&lt;img src=&quot;https://s1.imagehub.cc/images/2025/10/03/ab62d56798a18ea22b8ec1c83a28c4d7.webp&quot; alt=&quot;VueTorrent WebUI&quot; /&gt;&lt;/p&gt;
+</content:encoded></item></channel></rss>
